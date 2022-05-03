@@ -151,20 +151,22 @@ int main(void)
 //	  set_ang(90,TIM_CHANNEL_3,htim2,1);
 //	  HAL_Delay(3000);
 
+	  HAL_Delay(3000);
 	  set_ang(90,TIM_CHANNEL_1,htim5,1);
-	  HAL_Delay(2000);
+	  HAL_Delay(3000);
+	  set_ang(60,TIM_CHANNEL_4,htim2,1);
+	  HAL_Delay(3000);
 	  set_ang(80,TIM_CHANNEL_2,htim2,1);
 	  set_ang(80,TIM_CHANNEL_3,htim2,1);
-	  HAL_Delay(2000);
-	  set_ang(60,TIM_CHANNEL_4,htim2,1);
-	  HAL_Delay(2000);
+	  HAL_Delay(3000);
 	  set_ang(100,TIM_CHANNEL_2,htim2,1);
 	  set_ang(100,TIM_CHANNEL_3,htim2,1);
-	  HAL_Delay(2000);
-	  set_ang(90,TIM_CHANNEL_4,htim2,1);
-	  HAL_Delay(2000);
+	  HAL_Delay(3000);
+	  set_ang(30,TIM_CHANNEL_4,htim2,1);
+	  HAL_Delay(3000);
 	  set_ang(110,TIM_CHANNEL_1,htim5,1);
-	  HAL_Delay(2000);
+	  HAL_Delay(3000);
+
 
 
 //	  htim5.Instance->CCR1 = 18;
